@@ -10,4 +10,6 @@ This is the tutorial of [Installing MySQL](https://www.youtube.com/watch?v=wgRwI
 DROP TABLE IF EXISTS `Parks_and_Recreation`;
 
 CREATE DATABASE `Parks_and_Recreation`;
+
+USE `Parks_and_Recreation`;
 ```
