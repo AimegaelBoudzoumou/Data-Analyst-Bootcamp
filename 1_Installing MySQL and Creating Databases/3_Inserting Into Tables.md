@@ -29,13 +29,11 @@ VALUES
 (10, `Andy`, `Dwyer`, `Shoe Shiner and Musician`, 20000, NULL),
 (11, `Mark`,  `Brendanawicz`, `City Planner`, 57000, 3),
 (12, `Craig`, `Middlebrooks`, `Parks Director`, 65000, 1);
-```
 
-```sql
 INSERT INTO parks_departments (department_name)
 VALUES
-('Parks and Recreation),
-('Animal Control),
+('Parks and Recreation'),
+('Animal Control'),
 ('Public Works'),
 ('Healthcare'),
 ('Library'),
