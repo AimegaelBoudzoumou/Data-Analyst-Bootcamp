@@ -14,7 +14,9 @@ VALUES
 (10, 'Andy', 'Dwyer', 34, 'Male', '1989-03-25'),
 (11, 'Mark', 'Brendanawicz', 40, 'Male', '1983-06-14'),
 (12, 'Craig', 'Middlebrooks', 37, 'Male', '1986-07-27');
+```
 
+```sql
 INSERT INTO employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 VALUES
 (1, 'Leslie', 'Knope', 'Deputy Director of Parks and Recreation', 75000, 1),
@@ -29,7 +31,9 @@ VALUES
 (10, 'Andy', 'Dwyer', 'Shoe Shiner and Musician', 20000, NULL),
 (11, 'Mark',  'Brendanawicz', 'City Planner', 57000, 3),
 (12, 'Craig', 'Middlebrooks', 'Parks Director', 65000, 1);
+```
 
+```sql
 INSERT INTO parks_departments (department_name)
 VALUES
 ('Parks and Recreation'),
@@ -38,6 +42,5 @@ VALUES
 ('Healthcare'),
 ('Library'),
 ('Finance');
-
 ```
 
