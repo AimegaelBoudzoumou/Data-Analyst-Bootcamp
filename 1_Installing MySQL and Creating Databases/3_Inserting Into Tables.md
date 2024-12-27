@@ -32,11 +32,11 @@ VALUES
 
 INSERT INTO parks_departments (department_name)
 VALUES
-('Parks and Recreation'),
-('Animal Control'),
-('Public Works'),
-('Healthcare'),
-('Library'),
-('Finance');
+(`Parks and Recreation`),
+(`Animal Control`),
+(`Public Works`),
+(`Healthcare`),
+(`Library`),
+(`Finance`);
 ```
 
