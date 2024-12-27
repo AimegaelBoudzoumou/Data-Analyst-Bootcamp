@@ -10,7 +10,9 @@ CREATE TABLE employee_demographics (
   birth_date DATE,
   PRIMARY KEY (employee_id)
 );
+```
 
+```sql
 CREATE TABLE employee_salary (
   employee_id INT NOT NULL,
   first_name VARCHAR2(50) NOT NULL,
@@ -19,7 +21,9 @@ CREATE TABLE employee_salary (
   salary INT,
   dept_id INT
 );
+```
 
+```sql
 CREATE TABLE parks_departments (
   department_id INT NOT NULL AUTO_INCREMENT,
   department_name VARCHAR2(50) NOT NULL,
