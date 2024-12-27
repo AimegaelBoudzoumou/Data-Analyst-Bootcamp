@@ -18,7 +18,7 @@ VALUES
 INSERT INTO employee_salary (employee_id, first_name, last_name, occupation, salary, dept_id)
 VALUES
 (1, `Leslie`, `Knope`, `Deputy Director of Parks and Recreation`, 75000, 1),
-(2, `Ron`, `Swanson`, `Director of Parks and Recreation`, 70000, 1)
+(2, `Ron`, `Swanson`, `Director of Parks and Recreation`, 70000, 1),
 (3, `Tom`, `Haverford`, `Entrepreneur`, 50000, 1),
 (4, `April`, `Ludgate`, `Assistant to the Director of Parks and recreation`, 25000, 1),
 (5, `Jerry`, `Gergich`, `Office Manager`, 50000, 1),
