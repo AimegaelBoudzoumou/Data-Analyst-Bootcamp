@@ -30,7 +30,7 @@ VALUES
 (11, `Mark`,  `Brendanawicz`, `City Planner`, 57000, 3),
 (12, `Craig`, `Middlebrooks`, `Parks Director`, 65000, 1);
 
-INSERT INTO parks_departments (department_name)
+/*INSERT INTO parks_departments (department_name)
 VALUES
 ('Parks and Recreation'),
 ('Animal Control'),
@@ -52,7 +52,7 @@ VALUES
 (9, `Ben`, `Wyatt`, `State Auditor`, 70000, 6),
 (10, `Andy`, `Dwyer`, `Shoe Shiner and Musician`, 20000, NULL),
 (11, `Mark`,  `Brendanawicz`, `City Planner`, 57000, 3),
-(12, `Craig`, `Middlebrooks`, `Parks Director`, 65000, 1);
+(12, `Craig`, `Middlebrooks`, `Parks Director`, 65000, 1);*/
 
 INSERT INTO parks_departments (department_name)
 VALUES
