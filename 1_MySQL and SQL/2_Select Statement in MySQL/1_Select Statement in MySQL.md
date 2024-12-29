@@ -1,3 +1,5 @@
+# Select Statement
+
 ```sql
 SELECT *
 FROM employee_demographics;
@@ -35,7 +37,7 @@ age,
 FROM employee_demographics 
 ```
 
-# DISTINCT
+## DISTINCT
 
 ```sql
 SELECT DISTINCT gender
