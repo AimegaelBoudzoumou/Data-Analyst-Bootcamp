@@ -7,7 +7,7 @@ This is the tutorial of [Installing MySQL](https://www.youtube.com/watch?v=wgRwI
 ## 2. Creating Database
 
 ```sql
-DROP TABLE IF EXISTS `Parks_and_Recreation`;
+DROP DATABASE IF EXISTS `Parks_and_Recreation`;
 
 CREATE DATABASE `Parks_and_Recreation`;
 
