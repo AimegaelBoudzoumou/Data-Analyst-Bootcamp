@@ -1,4 +1,4 @@
-# 1_Joins
+# Joins
 
 ```sql
 SELECT * 
