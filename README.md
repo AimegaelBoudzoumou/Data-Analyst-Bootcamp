@@ -22,7 +22,7 @@ AWS
 
 ## Detailled Content
 
-### MySQL and SQL
+### MySQL and SQL (MySQL Workbench)
 Installing MySQL and Creating Databases
 
 Select Statement in MySQL
