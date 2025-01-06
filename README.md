@@ -49,7 +49,7 @@ Window Functions in MySQL
 
 CTEs in MySQL
 
-Temp Tables in MySQL
+Temporary Tables in MySQL
 
 Stored Procedures in MySQL
 
