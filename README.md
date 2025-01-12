@@ -6,9 +6,9 @@ This is a resume of my lecture of this tutorial : [Data Analyst Bootcamp](https:
 
 MySQL and SQL
 
-Excel
+<!-- Excel -->
 
-Tableau
+<!-- Tableau -->
 
 Power BI
 
