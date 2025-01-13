@@ -25,4 +25,13 @@ y = 'Mint Chocolate Chip'
 print(y)
 ```
 
+```python
+y = 'Mint Chocolate Chip'
+
+Y = 'Chocolate'
+
+print(Y) -- will show Chocolate
+
+```
+
 
