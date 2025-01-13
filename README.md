@@ -67,6 +67,12 @@ MySQL Exploratory Data Analysis
 
 ### Python
 
+Installing Jupyter Notebooks/Anaconda
+
+Variables in Python
+
+
+
 ### Pandas
 
 ### Azur
