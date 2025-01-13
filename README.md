@@ -59,9 +59,9 @@ Data Cleaning in MySQL
 
 MySQL Exploratory Data Analysis
 
-### Excel
+<!-- ### Excel -->
 
-### Tableau
+<!-- ### Tableau -->
 
 ### Power BI
 
