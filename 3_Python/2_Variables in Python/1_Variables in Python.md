@@ -31,7 +31,15 @@ y = 'Chocolate'
 Y = 'Mint Chocolate Chip'
 
 print(Y) # will show Mint Chocolate Chip
-
 ```
+
+```python
+x,y,z = 'Chocolate', 'Vanilla', 'Rocky road'
+
+print(x)
+
+type(x)
+```
+
 
 
