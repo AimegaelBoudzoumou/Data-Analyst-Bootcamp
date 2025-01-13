@@ -13,4 +13,16 @@ type(x)
 y = 'Mint Chocolate Chip'
 
 print(y)
+
+type(y)
+
+y = 'Chocolate'
+
+print(y)
+
+y = 'Mint Chocolate Chip'
+
+print(y)
 ```
+
+
