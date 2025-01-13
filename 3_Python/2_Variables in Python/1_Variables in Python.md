@@ -26,11 +26,11 @@ print(y)
 ```
 
 ```python
-y = 'Mint Chocolate Chip'
+y = 'Chocolate'
 
-Y = 'Chocolate'
+Y = 'Mint Chocolate Chip'
 
-print(Y) # will show Chocolate
+print(Y) # will show Mint Chocolate Chip
 
 ```
 
