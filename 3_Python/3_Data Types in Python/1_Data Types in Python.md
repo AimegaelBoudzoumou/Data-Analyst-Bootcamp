@@ -100,7 +100,7 @@ nest_list[2] # ['Scoops', 'Spoon']
 nest_list[2][1] # 'Spoon'
 ```
 
-## Tuple
+## tuple
 
 ```python
 tuple_scoops = (1,2,3,2,1)
