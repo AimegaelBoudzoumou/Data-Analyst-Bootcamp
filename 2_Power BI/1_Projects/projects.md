@@ -1,4 +1,3 @@
 # HR Analytics Dashboard
 
-![image](https://github.com/user-attachments/assets/fef18a2b-466d-44dd-a507-01278f815bc7)
-
+![image](https://github.com/user-attachments/assets/5adc0371-bbdc-49d6-a3a0-ce682df67e80)
