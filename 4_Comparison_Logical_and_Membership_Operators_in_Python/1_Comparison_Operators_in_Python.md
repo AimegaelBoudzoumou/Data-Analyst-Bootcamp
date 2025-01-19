@@ -4,12 +4,6 @@
 
 # Comparison Operators
 
-| __==__      | Equals |
-|---          |:-:    |
-|             |       |
-|             |       |
-|             |       |
-
 |   Operator |   Name |
 |:-:    |:-:    |
 |   ==   |   Equal |
