@@ -1,7 +1,3 @@
-<!--
-# Comparison, Logical, and Membership Operators
--->
-
 # Comparison Operators
 
 |   Operator |   Name |
