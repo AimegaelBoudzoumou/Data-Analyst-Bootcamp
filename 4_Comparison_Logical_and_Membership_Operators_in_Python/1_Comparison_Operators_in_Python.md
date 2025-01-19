@@ -13,10 +13,32 @@
 |   >=   |   Greater than or equal to |
 |   <=   |   Less than or equal to |
 
+```python
+10 = 10 # SyntaxError: cannot assign to literal
 
-## __==__ : Equals
-## __!=__ : Not Equal
-## __>__ : Greater than
-## __<__ : Less than
-## __>=__ : Greater than or equal to
-## __<=__ : Less than or equal to
+10 == 10 # True
+
+10 == 50 # False
+
+10 != 50 # True
+
+'Vanilla' == 'Chocolate' # False
+
+'Vanilla' == 'Vanilla' # True
+
+x = 'Vanilla'
+
+y = 'Chocolate'
+
+x == y # False
+
+x != y # True
+
+10 < 50 # True
+
+10 < 10 # False
+
+10 <= 10 # True
+
+50 => 10 # True
+```
