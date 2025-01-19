@@ -4,6 +4,12 @@
 
 # Comparison Operators
 
+|       |       |       |       |       |
+|---    |:-:    |:-:    |:-:    |--:    |
+|       |       |       |       |       |
+|       |       |       |       |       |
+|       |       |       |       |       |
+
 #### __==__ : Equals
 #### __!=__ : Not Equal
 #### __>__ : Greater than
