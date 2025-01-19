@@ -10,9 +10,9 @@
 |             |       |
 |             |       |
 
-|   Nom |   Hex |
+|   Operator |   Name |
 |:-:    |:-:    |
-|   GRINNING FACE   |   ```&#x1F600;``` |
+|   ==   |   Equal |
 |   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |
 |   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |
 
