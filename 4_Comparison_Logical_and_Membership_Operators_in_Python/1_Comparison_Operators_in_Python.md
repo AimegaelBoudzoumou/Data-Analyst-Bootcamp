@@ -13,8 +13,8 @@
 |   Operator |   Name |
 |:-:    |:-:    |
 |   ==   |   Equal |
-|   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |
-|   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |
+|   !=  |   Not equal |
+|   >   |   Greater than |
 
 #### __==__ : Equals
 #### __!=__ : Not Equal
