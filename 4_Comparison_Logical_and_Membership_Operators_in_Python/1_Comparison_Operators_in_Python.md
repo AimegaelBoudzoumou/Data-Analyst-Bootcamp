@@ -10,11 +10,11 @@
 |             |       |
 |             |       |
 
-|   Nom |   Hex |   Dec |   Prix    |
-|:-:    |:-:    |:-:    |--:    |
-|   GRINNING FACE   |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
-|   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |   ```&#128514;``` |   0.12 €  |
-|   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |   ```&#129315;``` |   0.09 €  |
+|   Nom |   Hex |
+|:-:    |:-:    |
+|   GRINNING FACE   |   ```&#x1F600;``` |
+|   FACE WITH TEARS OF JOY  |   ```&#x1F602;``` |
+|   ROLLING ON THE FLOOR LAUGHING   |   ```&#x1F923;``` |
 
 #### __==__ : Equals
 #### __!=__ : Not Equal
