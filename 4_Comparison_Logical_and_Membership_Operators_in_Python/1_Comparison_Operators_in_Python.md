@@ -15,6 +15,8 @@
 |   ==   |   Equal |
 |   !=  |   Not equal |
 |   >   |   Greater than |
+|   <   |   Less than |
+
 
 #### __==__ : Equals
 #### __!=__ : Not Equal
