@@ -65,13 +65,27 @@ MySQL Exploratory Data Analysis
 
 ### Power BI
 
+Installing Power BI. Building First Vizualisation
+
+Using Power Query
+
+Create and Manage Relationship
+
+Using DAX
+
+Using Drill Down
+
+Popular Vizualisation
+
+Full Power BI Guide Project
+
 ### Python
 
 Installing Jupyter Notebooks/Anaconda
 
 Variables in Python
 
-
+Content here ...
 
 ### Pandas
 
