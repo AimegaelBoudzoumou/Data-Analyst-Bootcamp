@@ -1,4 +1,4 @@
-# 1_How to Install Power BI - Building First Visualization
+# How to Install Power BI - Building First Visualization
 
 ### How to Install Power BI
 
