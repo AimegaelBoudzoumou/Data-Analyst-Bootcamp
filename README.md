@@ -85,7 +85,23 @@ Installing Jupyter Notebooks/Anaconda
 
 Variables in Python
 
-Content here ...
+Data Types in Python
+
+Comparison_Logical_and_Membership_Operators_in_Python
+
+If Elif Else Statements in Python
+
+For Loops in Python
+
+While Loops in Python
+
+Functions in Python
+
+Converting Data Types in Python
+
+Building a BMI Calculator with Python
+
+Building an Automated File Sorter in File Explorer using Python
 
 ### Pandas
 
