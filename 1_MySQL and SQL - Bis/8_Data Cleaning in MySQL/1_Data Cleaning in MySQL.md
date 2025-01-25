@@ -343,7 +343,7 @@ WHERE (t1.industry IS NULL OR t1.industry = '')
 AND t2.industry IS NOT NULL;
 ```
 
-The above SQL code produce the next table : 
+The above SQL code (I named it "select-one") produce the next table : 
 
 |   industry |   industry |
 |:-:    |:-:    |
@@ -363,9 +363,20 @@ AND t2.industry IS NOT NULL;
 
 ------------------------------------------------------------------------------------------------------------------
 
+At this step, the SQL code named "select-one" return nothing.
+
+```sql
 SELECT *
 FROM layoffs_staging2
 WHERE company LIKE 'Bally%';
+```
+
+|   company |   location |   industry | 
+|:-:    |:-:    |:-:   |
+|   Bally's Interactive   |   Providence |
+
+
+The above SQL code return only one row. 
 
 ```sql
 SELECT *
