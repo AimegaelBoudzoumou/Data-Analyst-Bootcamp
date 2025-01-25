@@ -312,7 +312,7 @@ WHERE company = 'Airbnb';
 ```
 
 ------------------------------------------------------------------------------------------------------------------
-#### Based on company and location : we want to update the column industry where it is blank
+#### We imagine this scenario : Based on company and location : we want to update the column industry where it is blank
 
 Eg : we wish the column industry of the first line (in the next table) have not blank, but contains Travel 
 
@@ -327,8 +327,8 @@ SELECT *
 FROM layoffs_staging2 t1
 JOIN layoffs_staging2 t2
   ON t1.company = t2.company
-  AND t1.location = t2.location
-WHERE (t1.industry IN NULL OR t1.industry = '')
+  -- AND t1.location = t2.location
+WHERE (t1.industry IS NULL OR t1.industry = '')
 AND t2.industry IS NOT NULL;
 ```
 
@@ -337,16 +337,28 @@ SELECT t1.industry, t2.industry
 FROM layoffs_staging2 t1
 JOIN layoffs_staging2 t2
   ON t1.company = t2.company
-  AND t1.location = t2.location
-WHERE (t1.industry IN NULL OR t1.industry = '')
+  -- AND t1.location = t2.location
+WHERE (t1.industry IS NULL OR t1.industry = '')
 AND t2.industry IS NOT NULL;
 ```
+
+The above SQL code produce the next table : 
+
+|   industry |   industry |
+|:-:    |:-:    |
+|      |    |
+|      |   Travel |
+|      |    |
+|      |   Transportation |
+|      |   Transportation |
+|      |    |
+|      |   Consumer|
 
 ```sql
 UPDATE layoffs_staging2 t1
 JOIN layoffs_staging2 t2
   ON t1.company = t2.company
-SET t1.company = t2.company
+SET t1.industry = t2.industry
 WHERE t1.industry IN NULL
 AND t2.industry IS NOT NULL;
 ```
