@@ -4,12 +4,12 @@
 
 ### 2. Standardizing Data
 
-### 3. Null Values or Blank Vakues
+### 3. Null Values or Blank Values
 
 ### 4. Remove Any Columns Unnecessary
 
 
-### Create stagging tableRemove Duplicates
+### First Creating stagging table
 
 ```sql
 SELECT * FROM layoffs;
@@ -207,7 +207,76 @@ FROM layoffs_staging2
 ORDER BY 1;
 ```
 
-### 3. Null Values or Blank Vakues
+```sql
+SELECT DISTINCT country, TRIM(country)
+FROM layoffs_staging2
+ORDER BY 1;
+```
+
+```sql
+SELECT DISTINCT country, TRIM(TRAILING '.' FROM country)
+FROM layoffs_staging2
+ORDER BY 1;
+```
+
+```sql
+UPDATE layoffs_staging2
+SET country = TRIM(TRAILING '.' FROM country)****
+WHERE country LIKE 'United States%';
+```
+
+```sql
+SELECT DISTINCT country, TRIM(TRAILING '.' FROM country)
+FROM layoffs_staging2
+ORDER BY 1;
+```
+
+```sql
+SELECT *
+FROM layoffs_staging2;
+```
+
+#### date column
+
+```sql
+SELECT `date`
+FROM layoffs_staging2;
+```
+
+```sql
+SELECT `date`,
+STR_TO_DATE(`date`, '%m/%d/%Y')
+FROM layoffs_staging2;
+```
+
+__Change all dates to the same date format__
+
+```sql
+UPDATE layoffs_staging2
+SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
+```
+
+```sql
+SELECT `date`
+FROM layoffs_staging2;
+```
+
+__Change the `date` column to date type__
+
+```sql
+ALTER TABLE layoffs_staging2
+MODIFY COLUMN `date` DATE;
+```
+
+```sql
+SELECT * 
+FROM layoffs_staging2;
+```
+
+#### date column
+
+
+### 3. Null Values or Blank Values
 
 
 
