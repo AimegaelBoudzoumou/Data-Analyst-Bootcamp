@@ -38,7 +38,7 @@ ice_cream_dict = {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice crea
 
 for cream in ice_cream_dict.values():
     print(cream)
-
-for key, value in ice_cream_dict.items():
-    print(key, '->', value)
+    
+    for key, value in ice_cream_dict.items():
+        print(key, '->', value)
 ```
