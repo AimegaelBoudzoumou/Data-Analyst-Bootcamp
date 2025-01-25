@@ -314,6 +314,12 @@ WHERE company = 'Airbnb';
 ------------------------------------------------------------------------------------------------------------------
 #### Based on company and location : we want to update the column industry where it is blank
 
+Eg : we wish the column industry of the first line (in the next table) have not blank, but contains Travel 
+
+|   company |   location |   industry | 
+|:-:    |:-:    |:-:   |
+|   Airbnb   |   SF Bay Area |
+|   Airbnb  |   SF Bay Area | Travel
 
 
 ```sql
