@@ -412,7 +412,7 @@ SELECT *
 FROM layoffs_staging2;
 ```
 
-### Recap
+### Recap of Data Cleaning step's
 
 #### 1. Remove Duplicates
 
