@@ -376,7 +376,9 @@ WHERE company LIKE 'Bally%';
 |   Bally's Interactive   |   Providence |
 
 
-The above SQL code return only one row. 
+The above SQL code return only one row. So it it not possible to image this scenario : 
+Based on company and location : we want to update the column industry where it is blank
+
 
 ```sql
 SELECT *
