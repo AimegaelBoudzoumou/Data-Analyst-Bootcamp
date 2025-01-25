@@ -6,7 +6,7 @@
 
 ### 3. Null Values or Blank Values
 
-### 4. Remove Any Columns Unnecessary
+### 4. Remove Any Columns or Rows Unnecessary
 
 
 ### First Creating stagging table
@@ -412,3 +412,12 @@ SELECT *
 FROM layoffs_staging2;
 ```
 
+### Recap
+
+#### 1. Remove Duplicates
+
+#### 2. Standardizing Data
+
+#### 3. Null Values or Blank Values
+
+#### 4. Remove Any Columns or Rows Unnecessary
