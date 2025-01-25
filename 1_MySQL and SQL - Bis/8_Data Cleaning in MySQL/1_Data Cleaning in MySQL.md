@@ -26,7 +26,7 @@ SELECT *
 FROM layoffs;
 ```
 
-### 1. Remove Duplicates
+## 1. Remove Duplicates
 
 ```sql
 SELECT *,
@@ -83,7 +83,7 @@ CREATE TABLE `layoffs_staging2` (
 `company` text,
 `location` text,
 `industry` text,
-`total_laid_of` int default NULL,
+`total_laid_off` int default NULL,
 `percentage_laid_of` text,
 `date` text,
 `stage` text,
@@ -136,7 +136,7 @@ SELECT *
 FROM layoffs_staging2;
 ```
 
-### 2. Standardizing Data
+## 2. Standardizing Data
 
 #### company column
 
@@ -273,13 +273,49 @@ SELECT *
 FROM layoffs_staging2;
 ```
 
-#### date column
+#### total_laid_off column
+
+```sql
+SELECT *
+FROM layoffs_staging2
+WHERE total_laid_off IS NULL
+AND percentage_laid_off IS NULL;
+```
+
+```sql
+SELECT DISTINCT industry
+FROM layoffs_staging2
+WHERE industry IS NULL
+OR industry = '';
+```
+
+```sql
+SELECT *
+FROM layoffs_staging2
+WHERE industry IS NULL
+OR industry = '';
+```
+
+```sql
+SELECT *
+FROM layoffs_staging2
+WHERE company = 'Airbnb';
+```
+
+---
+
+```sql
+SELECT *
+FROM layoffs_staging2
+WHERE company = 'Airbnb';
+```
 
 
-### 3. Null Values or Blank Values
+
+## 3. Null Values or Blank Values
 
 
 
-### 4. Remove Any Columns Unnecessary
+## 4. Remove Any Columns Unnecessary
 
 
