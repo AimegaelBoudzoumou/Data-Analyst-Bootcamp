@@ -285,6 +285,7 @@ WHERE total_laid_off IS NULL
 AND percentage_laid_off IS NULL;
 ```
 
+-- "for-update-is-null-t1-industry" (see line 363)
 ```sql
 UPDATE layoffs_staging2
 SET industry = NULL
@@ -346,20 +347,17 @@ The above SQL code produce the next table :
 
 |   industry |   industry |
 |:-:    |:-:    |
-|      |    |
-|      |   Travel |
-|      |    |
-|      |   Transportation |
-|      |   Transportation |
-|      |    |
-|      |   Consumer|
+| null     |   Travel |
+| null     |   Transportation |
+| null     |   Transportation |
+| null     |   Consumer|
 
 ```sql
 UPDATE layoffs_staging2 t1
 JOIN layoffs_staging2 t2
   ON t1.company = t2.company
 SET t1.industry = t2.industry
-WHERE t1.industry IN NULL
+WHERE t1.industry IS NULL  -- for this line work well, we must to execute the SQL code named "for-update-is-null-t1-industry" (see above, line 288) 
 AND t2.industry IS NOT NULL;
 ```
 
