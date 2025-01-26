@@ -1,4 +1,4 @@
-# BeautifulSoup + Requests | Web Scraping in Python
+# BeautifulSoup + Requests
 
 ```python
 from bs4 import BeautifulSoup
