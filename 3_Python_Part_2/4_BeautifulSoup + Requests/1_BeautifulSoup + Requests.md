@@ -12,5 +12,5 @@ soup = BeatifulSoup(page.text, 'html')
 
 print(soup)
 
-print(soup.prettify() # display html text with "indentation"
+print(soup.prettify()) # display html text with "indentation"
 ```
