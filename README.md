@@ -103,6 +103,8 @@ Building a BMI Calculator with Python
 
 Building an Automated File Sorter in File Explorer using Python
 
+Web Scraping
+
 ### Pandas
 
 ### Azur
