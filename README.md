@@ -107,6 +107,26 @@ Web Scraping
 
 ### Pandas
 
+Reading in Files
+
+Filtering Columns ans Rows 
+
+Indexes
+
+Group By and Aggregate
+
+Merging <DataFrames
+
+Creating Visualizations
+
+Data Cleaning
+
+Exploratory Data Analysis
+
+Amazon Web Scraping Using Python
+
+Automating Crypto Website API
+
 ### Azur
 
 ### AWS
