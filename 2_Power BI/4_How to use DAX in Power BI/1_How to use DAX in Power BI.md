@@ -25,5 +25,8 @@ Profit = (SUM('Apocolypse Store'[Price]) - sum('Apocolypse Store'[Production Cos
 ![image](https://github.com/user-attachments/assets/2085f310-4193-43fc-8d63-f5d7c6e282b1)
 
 
-### 5. SUMx (Profit_Column_SUMx)
+### 5. Adding Colum : SUMx (Profit_Column_SUMx)
 ![image](https://github.com/user-attachments/assets/b89cd72a-c568-4b4f-9de9-06d81a03cb93)
+
+### 6. Adding Column : Day of Week
+![image](https://github.com/user-attachments/assets/fc2c8772-369a-415e-b3cd-b7c57b7ccb45)
