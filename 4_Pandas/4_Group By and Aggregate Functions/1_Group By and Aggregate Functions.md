@@ -1,5 +1,7 @@
 # Group By and Aggregate Functions
 
+This is the Tutorial's weblink : 
+
 ```python
 import pandas as pd
 
@@ -17,31 +19,31 @@ group_by_frame.mean()
 ou en une seule ligne : 
 
 ```python
-df.group_by_frame.mean().mean()
+df.groupby('Base Flavor').mean()
 ```
 
 ```python
-df.group_by_frame.mean().count()
+df.groupby('Base Flavor').count()
 ```
 
 ```python
-df.group_by_frame.mean().min()
+df.groupby('Base Flavor').min()
 ```
 
 ```python
-df.group_by_frame.mean().max()
+df.groupby('Base Flavor').max()
 ```
 
 ```python
-df.group_by_frame.mean().sum()
+df.groupby('Base Flavor').sum()
 ```
 
 ```python
-df.group_by_frame.mean().agg({'Flavor Rating': ['mean', 'max', 'count', 'sum']})
+df.groupby('Base Flavor').agg({'Flavor Rating': ['mean', 'max', 'count', 'sum']})
 ```
 
 ```python
-df.group_by_frame.mean().agg({'Flavor Rating': ['mean', 'max', 'count', 'sum'], 'Texture Rating': ['mean', 'max', 'count', 'sum']})
+df.groupby('Base Flavor').agg({'Flavor Rating': ['mean', 'max', 'count', 'sum'], 'Texture Rating': ['mean', 'max', 'count', 'sum']})
 ```
 
 ```python
