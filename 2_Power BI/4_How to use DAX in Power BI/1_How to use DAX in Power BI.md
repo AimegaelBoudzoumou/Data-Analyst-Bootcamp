@@ -20,7 +20,10 @@ Profit = (SUM('Apocolypse Store'[Price]) - sum('Apocolypse Store'[Production Cos
 ```
 ![image](https://github.com/user-attachments/assets/d548a787-4c04-4455-b925-1a1b405c75f0)
 
+
 ### 4. Nouvelle colonne
 ![image](https://github.com/user-attachments/assets/2085f310-4193-43fc-8d63-f5d7c6e282b1)
 
+
 ### 5. SUMx (Profit_Column_SUMx)
+![image](https://github.com/user-attachments/assets/b89cd72a-c568-4b4f-9de9-06d81a03cb93)
