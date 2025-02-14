@@ -4,7 +4,8 @@
 ```dax
 Count of Sales = COUNT('Apocolypse Sales'[Order ID])
 ```
-![image](https://github.com/user-attachments/assets/a5e3998c-3991-4ada-8d62-7279ace416e5)
+![image](https://github.com/user-attachments/assets/b0413561-8cc7-4a6c-a3ff-9ce35348cbfc)
+
 
 ### Sum of Products Sold
 ```dax
