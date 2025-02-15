@@ -1,6 +1,7 @@
 # How to use DAX in Power BI
 
-This is the (tutorial)[https://www.youtube.com/watch?v=vcijg0gUXSg&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=37&t=23s]
+This is the [tutorial](https://www.youtube.com/watch?v=vcijg0gUXSg&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=37&t=23s)
+
 
 ### 1. Count of sales
 ```dax
