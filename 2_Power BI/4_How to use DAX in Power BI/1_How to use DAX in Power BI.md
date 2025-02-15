@@ -28,10 +28,16 @@ Profit = (SUM('Apocolypse Store'[Price]) - sum('Apocolypse Store'[Production Cos
 
 
 ### 5. Adding Colum : SUMx (Profit_Column_SUMx)
+```dax
+Profit_Column_SUMx = SUMX('Apocolypse Sales', ('Apocolypse Store'[Price] - 'Apocolypse Store'[Production Cost]) * 'Apocolypse Sales'[Units Sold])
+```
 ![image](https://github.com/user-attachments/assets/b89cd72a-c568-4b4f-9de9-06d81a03cb93)
 
 
 ### 6. Adding Column : Day of Week
+```dax
+Day of Week = WEEKDAY('Apocolypse Sales'[Date Purchased], 2)
+```
 ![image](https://github.com/user-attachments/assets/fc2c8772-369a-415e-b3cd-b7c57b7ccb45)
 
 
