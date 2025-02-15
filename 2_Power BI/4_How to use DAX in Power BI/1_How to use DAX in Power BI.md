@@ -30,11 +30,21 @@ Profit = (SUM('Apocolypse Store'[Price]) - sum('Apocolypse Store'[Production Cos
 ### 5. Adding Colum : SUMx (Profit_Column_SUMx)
 ![image](https://github.com/user-attachments/assets/b89cd72a-c568-4b4f-9de9-06d81a03cb93)
 
+
 ### 6. Adding Column : Day of Week
 ![image](https://github.com/user-attachments/assets/fc2c8772-369a-415e-b3cd-b7c57b7ccb45)
+
 
 ### 7. "Date Purshased" And "Unit Sold"
 ![image](https://github.com/user-attachments/assets/f0ab9dc8-3fae-4764-9d67-180143926850)
 
 ![image](https://github.com/user-attachments/assets/332df684-c00f-4159-8f59-1263ba89effc)
 
+![image](https://github.com/user-attachments/assets/5b7630a0-97e4-469d-a26a-cecc15df3f1a)
+
+
+### 8. IF DAX
+```dax
+Order_Size = IF('Apocolypse Sales'[Units Sold]>25, "Big Order", "Small Order")
+```
+![image](https://github.com/user-attachments/assets/8973cb3b-65fb-45c4-898a-931151c66646)
