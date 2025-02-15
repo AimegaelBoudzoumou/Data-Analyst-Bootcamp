@@ -1,5 +1,7 @@
 # How to use DAX in Power BI
 
+This is the (tutorial)[https://www.youtube.com/watch?v=vcijg0gUXSg&list=PLUaB-1hjhk8FE_XZ87vPPSfHqb6OcM0cF&index=37&t=23s]
+
 ### 1. Count of sales
 ```dax
 Count of Sales = COUNT('Apocolypse Sales'[Order ID])
@@ -30,3 +32,9 @@ Profit = (SUM('Apocolypse Store'[Price]) - sum('Apocolypse Store'[Production Cos
 
 ### 6. Adding Column : Day of Week
 ![image](https://github.com/user-attachments/assets/fc2c8772-369a-415e-b3cd-b7c57b7ccb45)
+
+### 7. "Date Purshased" And "Unit Sold"
+![image](https://github.com/user-attachments/assets/f0ab9dc8-3fae-4764-9d67-180143926850)
+
+![image](https://github.com/user-attachments/assets/332df684-c00f-4159-8f59-1263ba89effc)
+
