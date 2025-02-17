@@ -57,3 +57,7 @@ Avant :
 
 Après : 
 ![image](https://github.com/user-attachments/assets/29cc1035-d8bc-46fa-b4a9-b935f8fd7b43)
+
+Sur la fenêtre ci-dessus : faire __Fermer & appliquer__ pour sauvegarder le travail.
+
+On se retrouve sur la page suivante. Pour repartir dans __Power Query__, on clique sur __Transformer les données.__
