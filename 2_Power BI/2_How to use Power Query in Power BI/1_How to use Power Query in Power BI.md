@@ -34,5 +34,26 @@ Avant :
 ![image](https://github.com/user-attachments/assets/c1058da4-d678-44de-841e-8dc4f9412390)
 
 Après : 
+![image](https://github.com/user-attachments/assets/80e4e8e8-553a-42d0-9e91-6d994c8d1670)
 
+### 4. Supprimer la colonne "Grand Total"
+Sélectionner la colonne puis Faire : _Accueil -> Supprimer les colonnes_
 
+Avant : 
+![image](https://github.com/user-attachments/assets/54d638f9-e75c-40ef-a505-c6f708d361e3)
+
+Après : 
+![image](https://github.com/user-attachments/assets/5b7ff4a9-5de0-4e88-a82a-035e4354cd49)
+
+### 5. Pivoter/Dépivoter les colonnes : échanger les lignes et les colonnes. Objectif : Faire en sorte d'avoir le moins de colonnes possibles, pour ensuite les injecter dans les visuels.
+
+Exemple : 
+![image](https://github.com/user-attachments/assets/d109f676-d06d-4ba9-b9ad-0a5ffe1ec08d)
+
+Séléctionner les colonnes puis Faire : _Transformer -> Dépivoter les colonnes_
+
+Avant :
+![image](https://github.com/user-attachments/assets/326b27b0-58dc-44f1-8944-a4c326a93d8e)
+
+Après : 
+![image](https://github.com/user-attachments/assets/29cc1035-d8bc-46fa-b4a9-b935f8fd7b43)
