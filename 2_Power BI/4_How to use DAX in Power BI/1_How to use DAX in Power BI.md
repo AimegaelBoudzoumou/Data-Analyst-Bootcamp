@@ -47,8 +47,6 @@ Day of Week = WEEKDAY('Apocolypse Sales'[Date Purchased], 2)
 
 ![image](https://github.com/user-attachments/assets/332df684-c00f-4159-8f59-1263ba89effc)
 
-![image](https://github.com/user-attachments/assets/5b7630a0-97e4-469d-a26a-cecc15df3f1a)
-
 ![image](https://github.com/user-attachments/assets/e27af106-81fd-42a4-8d86-73ab98edc147)
 
 
