@@ -67,4 +67,4 @@ Après :
 
 Sur la fenêtre ci-dessus : faire __Fermer & appliquer__ pour sauvegarder le travail.
 
-On se retrouve sur la page suivante. Pour repartir dans __Power Query__, on clique sur __Transformer les données.__
+On se retrouve dans une nouvelle fenêtre. Pour repartir dans __Power Query__, on clique sur __Transformer les données.__
