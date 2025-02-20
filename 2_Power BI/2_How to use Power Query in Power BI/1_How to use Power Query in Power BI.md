@@ -31,6 +31,7 @@ Avant :
 ![image](https://github.com/user-attachments/assets/27dd237c-6fdc-4272-96b2-cf06fa0012a2)
 
 Méthode 2 : Products -> Filtres textuels -> Ne contient pas...
+
 Avant :
 ![image](https://github.com/user-attachments/assets/c1058da4-d678-44de-841e-8dc4f9412390)
 
