@@ -26,6 +26,7 @@ Après :
 ### 3. Supprimer les lignes ayant la valeur _null_ dans la colonne Location
 
 Méthode 1 : Location -> Supprimer les éléments vides
+
 Avant :
 ![image](https://github.com/user-attachments/assets/27dd237c-6fdc-4272-96b2-cf06fa0012a2)
 
