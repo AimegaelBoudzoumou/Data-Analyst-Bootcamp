@@ -49,8 +49,13 @@ Après :
 
 ### 5. Pivoter/Dépivoter les colonnes : échanger les lignes et les colonnes. Objectif : Faire en sorte d'avoir le moins de colonnes possibles, pour ensuite les injecter dans les visuels.
 
-Exemple : 
+Exemple :
+
+![image](https://github.com/user-attachments/assets/2ec634d5-79d0-4662-b46d-42496c8b9fed)
+
+<!--
 ![image](https://github.com/user-attachments/assets/d109f676-d06d-4ba9-b9ad-0a5ffe1ec08d)
+-->
 
 Séléctionner les colonnes puis Faire : _Transformer -> Dépivoter les colonnes_
 
