@@ -75,9 +75,13 @@ Using DAX
 
 Using Drill Down
 
+How to use Conditional Formatting in Power BI
+
+How to use Bins and Lists in Power BI
+
 Popular Vizualisation
 
-Full Power BI Guide Project
+Full Power BI Guided Project
 
 ### Python
 
