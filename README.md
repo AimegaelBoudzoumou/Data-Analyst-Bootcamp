@@ -119,7 +119,7 @@ Indexes
 
 Group By and Aggregate
 
-Merging <DataFrames
+Merging DataFrames
 
 Creating Visualizations
 
