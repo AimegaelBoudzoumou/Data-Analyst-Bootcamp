@@ -10,3 +10,5 @@ Sur le menu déroulant, on choisit "Mise en forme conditionnelle" puis "Couleur 
 
 ![image](https://github.com/user-attachments/assets/85e851f6-13ba-47a2-af6e-c2273c4ade09)
 
+![image](https://github.com/user-attachments/assets/21f5f1bf-c774-4781-8058-45020a560005)
+
