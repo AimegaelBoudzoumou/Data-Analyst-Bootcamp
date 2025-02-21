@@ -58,7 +58,7 @@ Order_Size = IF('Apocolypse Sales'[Units Sold]>25, "Big Order", "Small Order")
 
 Un autre exemple d'utilisation de la fonction IF de DAX :
 
-Ce code DAX permet de répartir les ventes sur le mois, selon qu'ils soient survenus dans la première quainzaine du mois, ou dans la deuxième quainzaine du mois.
+Ce code DAX permet de répartir les ventes sur le mois, selon qu'elles aient eu lieu soit au cours de la première quainzaine du mois, soit au cours de la deuxième quainzaine du mois.
 
 ```DAX
 Situation dans le mois = IF('Apocolypse Sales'[Day of Month]<15, "1ère quinzaine", "2ième quainzaine")
