@@ -129,23 +129,23 @@ daily_pints = {1,2,3}
 
 type(daily_pints) # set
 
-print(daily_pints) # {1,2,3}
+print(daily_pints) # {1, 2, 3}
 
 daily_pints_log = {1,2,3,2,3,4,1,2,5,6,3,2}
 
-print(daily_pints_log) # {1,2,3,4,5,6, 31}
+print(daily_pints_log) # {1, 2, 3, 4, 5, 6}
 
 wifes_daily_pints_log = {1,3,5,7,3,24,5,7,3,2,0}
 
-print(daily_pints_log | wifes_daily_pints_log) # {0,1,2,3,4,5,6,7, 24, 31}
+print(daily_pints_log | wifes_daily_pints_log) # {0, 1, 2, 3, 4, 5, 6, 7, 24}
 
 print(daily_pints_log & wifes_daily_pints_log) # {1, 2, 3, 5}
 
-print(daily_pints - wifes_daily_pints_log) # {4, 6, 31}
+print(daily_pints_log - wifes_daily_pints_log) # {4, 6}
 
 print(wifes_daily_pints_log - daily_pints_log) # {0, 24, 7}
 
-print(wifes_daily_pints_log ^ daily_pints_log) # {0, 4, 6, 7, 24, 31}
+print(wifes_daily_pints_log ^ daily_pints_log) # {0, 4, 6, 7, 24} # Return all elements "are not commun" between the two sets.
 ```
 
 ## dictionnaries
