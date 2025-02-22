@@ -1,5 +1,7 @@
 # Data Types
 
+Note : Assume we are  in Jupyter Notebook
+
 <!--Note : use print(type(something)) to see the result of print() method.-->
 
 ### int, float, complex
@@ -15,7 +17,7 @@ type(-12 + 10.25) # float
 
 type(-12 + 3j) # complex
 
-type(-12 + 3c) # SyntaxError: invalid syntax
+type(-12 + 3c) # SyntaxError: invalid decimal literal
 ```
 
 ### Boolean
@@ -67,15 +69,15 @@ print(a[-3]) # l
 
 print(a[2:5]) # llo
 
-a*3 # Hello World!Hello World!Hello World!
+a*3 # 'Hello World!Hello World!Hello World!'
 
-a + a # Hello World!Hello World!
+a + a # 'Hello World!Hello World!'
 ```
 
 ## list
 
 ```python
-[1,2,3] # [1,2,3]
+[1,2,3] # [1, 2, 3]
 
 ['Cookie Dough', 'Strawberry', 'Chocolate'] # ['Cookie Dough', 'Strawberry', 'Chocolate']
 
@@ -83,13 +85,15 @@ a + a # Hello World!Hello World!
 
 ice_cream = ['Cookie Dough', 'Strawberry', 'Chocolate']
 
+ice_cream # ['Cookie Dough', 'Strawberry', 'Chocolate']
+
 ice_cream.append('Salted Caramel')
 
 ice_cream # ['Cookie Dough', 'Strawberry', 'Chocolate', 'Salted Caramel']
 
 ice_cream[0] = 'Butter Pecan'
 
-ice_cream # ['Butter Pecan', 'Strawberry', 'Chocolate', 'Salted Caramel']
+['Butter Pecan', 'Strawberry', 'Chocolate', 'Salted Caramel']
 
 nest_list = ['Vanilla', 3, ['Scoops', 'Spoon'], True]
 
@@ -98,7 +102,13 @@ nest_list[0] # 'Vanilla'
 nest_list[2] # ['Scoops', 'Spoon']
 
 nest_list[2][1] # 'Spoon'
+
 ```
+
+#### List methods
+- add to List : append(), inser(), extend(), List Concatenation (using of __+__ operator)
+- remove from List : remove(), poop()
+- other methods : index(), copy(), reverse(), count(), sort(), clear()
 
 ## tuple
 
