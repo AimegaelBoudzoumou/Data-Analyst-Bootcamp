@@ -4,7 +4,7 @@ Note : Assume we are  in Jupyter Notebook
 
 <!--Note : use print(type(something)) to see the result of print() method.-->
 
-### int, float, complex
+### Int, Float, Complex
 
 ```python
 type(12) # int
@@ -74,7 +74,7 @@ a*3 # 'Hello World!Hello World!Hello World!'
 a + a # 'Hello World!Hello World!'
 ```
 
-## list
+## List
 
 ```python
 [1,2,3] # [1, 2, 3]
@@ -110,7 +110,7 @@ nest_list[2][1] # 'Spoon'
 - remove from List : remove(), poop()
 - other methods : index(), copy(), reverse(), count(), sort(), clear()
 
-## tuple
+## Tuple
 
 ```python
 tuple_scoops = (1,2,3,2,1)
@@ -122,7 +122,7 @@ tuple_scoops[0] # 1
 tuple_scoops.append(3) # AttributeError : 'tuple' object has no attribute 'append'
 ```
 
-## sets
+## Sets
 
 ```python
 daily_pints = {1,2,3}
@@ -148,43 +148,42 @@ print(wifes_daily_pints_log - daily_pints_log) # {0, 24, 7}
 print(wifes_daily_pints_log ^ daily_pints_log) # {0, 4, 6, 7, 24} # Return all elements "are not commun" between the two sets.
 ```
 
-## dictionnaries
+## Dictionnaries
 
 ```python
 # Key/Value Pair
 
-dict_cream = {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC','Chocolate']}
+dict_cream = {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate']}
 
-type(dict_cream) # dict
+type(dict_cream)
 
-print(dict_cream) # {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC','Chocolate']}
+print(dict_cream) # {'name': 'Alex Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate']}
 
-dict_cream.values() # dict_values(['Alex Freberg', 5, ['MCC','Chocolate']])
+dict_cream.values() # dict_values(['Alex Freberg', 5, ['MCC', 'Chocolate']])
 
 dict_cream.keys() # dict_keys(['name', 'weekly intake', 'favorite ice creams'])
 
-dict_cream.items() # dict_items([('name', 'Alex Freberg'), ('weekly intake', 5), ('favorite ice creams', ['MCC', 'Chocolate'])])
+type(dict_cream.items()) # dict_items
+```
+
+```python
 
 dict_cream[0] # KeyError: 0
 
-dict_cream['name'] # Alex Freberg
+dict_cream['name'] # 'Alex Freberg'
 
 dict_cream['name'] = 'Christine Freberg'
 
 print(dict_cream) # {'name': 'Christine Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate']}
+```
 
-# dict_cream.update({'name': 'Christine Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC','Chocolate']})
+```python
+dict_cream.update({'name': 'Joe Freber', 'weekly intake': 5, 'weight':300})
 
-
-dict_cream.update({'name': 'Christine Freberg', 'weekly intake': 5, 'weight': 300})
-
-print(dict_cream) # {'name': 'Christine Freberg', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate'], 'weight': 300}
-
-dict_cream.update({'name': 'Christine Freberg', 'weekly intake': 10, 'weight': 300})
-
-print(dict_cream) # {'name': 'Christine Freberg', 'weekly intake': 10, 'favorite ice creams': ['MCC', 'Chocolate'], 'weight': 300}
+print(dict_cream) # {'name': 'Joe Freber', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate'], 'weight': 300}
 
 del dict_cream['weight']
 
-print(dict_cream) # {'name': 'Christine Freberg', 'weekly intake': 10, 'favorite ice creams': ['MCC', 'Chocolate']}
+print(dict_cream) # {'name': 'Joe Freber', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate']}
+
 ```
