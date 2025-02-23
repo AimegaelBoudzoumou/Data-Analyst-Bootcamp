@@ -22,6 +22,8 @@
 
 'Vanilla' == 'Vanilla' # True
 
+'Vanilla' == 'vanilla' # False
+
 x = 'Vanilla'
 
 y = 'Chocolate'
