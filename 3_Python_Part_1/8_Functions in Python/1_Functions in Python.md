@@ -52,8 +52,9 @@ def number_kwarg(**number):
     print('My number is : ' + number['integer'])
 
 number_kwarg(integer = '2309') # My number is : 2309
+```
 
-
+```python
 def number_kwarg(**number):
     print('My number is : ' + number['integer'] + ' My other number: ' + number['integer2'])
 
