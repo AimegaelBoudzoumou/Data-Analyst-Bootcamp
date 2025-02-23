@@ -1,5 +1,8 @@
 # if elif else Statements
 
+![image](https://github.com/user-attachments/assets/4b1a53ae-b164-421a-aa7e-4eecd332227c)
+
+
 ```python
 if (25 > 10):
     print('It worked')
