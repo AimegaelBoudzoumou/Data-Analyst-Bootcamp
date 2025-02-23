@@ -1,16 +1,15 @@
 # Building a BMI Calculator with Python
 
 ```python
-
-name = input("Enter your name: ")
+name = input("Enter your name")
 
 weight = int(input("Enter your weight in pounds"))
 
-height = int(input("Enter your height in inches"))
+height = int(input("Enter your height in inch"))
 
-BMI = (weight * 703) / (height * height)
+BMI =  (weight * 703) / (height * height)
 
-print("Your BMI is: ", BMI)
+print("Your BMI is", BMI)
 
 if BMI > 0:
     if (BMI<18.5):
@@ -24,7 +23,7 @@ if BMI > 0:
     elif (BMI<39.9):
         print(name + ", you are severely obese.")
     else:
-        print(name + ", you are morbidly obse.")
+        print(name + ", you are morbidly obese.")
 else:
-    print("Enter valid input")
+    print("Please enter a valid number")
 ```
