@@ -16,6 +16,17 @@ while number < 5:
     number = number + 1
 ```
 
+<!--
+```python
+number = 0
+while number < 5:
+    if number == 3:
+        break
+    print(number)
+    number = number + 1
+```
+-->
+
 ```python
 number = 0
 while number < 5:
@@ -40,7 +51,7 @@ else:
 
 Boucle indéfinie :
 
-```sql
+```python
 number = 0
 while number < 5:
     print(number)
