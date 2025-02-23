@@ -9,19 +9,19 @@
 ```python
 (10 > 50) and (50 > 50) # False
 
-print((70 > 50) and (50 > 10)) # True
+(70 > 50) and (50 > 10) # True
 
-print((10 > 50) or (50 > 10)) # True
+(10 > 50) or (50 > 10) # True
 
-print(('Vanilla' > 'Chocolate') or (50 > 10)) # True
+('Vanilla' > 'Chocolate') or (50 > 10) # True
 
-print('Chocolate' > 'Vanilla') # False
+'Chocolate' > 'Vanilla' # False
 
-print('Vanilla' > 'Chocolate') # True
+'Vanilla' > 'Chocolate' # True
 
-print('W' < 'z') # True
+'W' < 'z' # True
 
-print(('Vanilla' > 'Chocolate') and (50 > 10)) # True
+('Vanilla' > 'Chocolate') and (50 > 10) # True
 
-print(not(50 > 10)) # False
+not(50 > 10) # False
 ```
