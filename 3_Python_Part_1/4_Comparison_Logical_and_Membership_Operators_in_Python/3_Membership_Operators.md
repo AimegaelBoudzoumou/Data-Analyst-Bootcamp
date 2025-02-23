@@ -8,23 +8,25 @@
 ```python
 ice_cream = 'I love Chocolate ice cream'
 
-print('love' in ice_cream) # True
+'love' in ice_cream # True
 
-print('love' in 'I love Chocolate ice cream')
+'love' in 'I love Chocolate ice cream' # True
 
-print('love' not in ice_cream) # False
+'love' not in ice_cream # False
 
-print('Love' in ice_cream) # False
+'Love' not in ice_cream # True
+
+'Love' in ice_cream # False
 
 scoops = [1,2,3,4,5]
 
-print(2 in scoops) # True
+2 in scoops # True
 
-print(6 not in scoops) # True
+6 not in scoops # True
 
 wanted_scoop = 8
 
-print(wanted_scoop in scoops) # False
+wanted_scoop in scoops # False
 
-print(wanted_scoop not in scoops) # False
+wanted_scoop not in scoops # True
 ```
