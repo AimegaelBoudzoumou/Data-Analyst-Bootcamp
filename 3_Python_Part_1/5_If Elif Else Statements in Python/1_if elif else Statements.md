@@ -54,7 +54,7 @@ else:
 ## Others Syntax
 
 ```python
-print('It worked!') if 10>30 else print('It do not work...') # It do not work
+print('It worked!') if 10 > 30 else print('It do not work...') # It do not work
 ```
 
 ```python
