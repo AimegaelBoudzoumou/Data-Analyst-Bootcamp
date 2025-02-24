@@ -187,3 +187,5 @@ del dict_cream['weight']
 print(dict_cream) # {'name': 'Joe Freber', 'weekly intake': 5, 'favorite ice creams': ['MCC', 'Chocolate']}
 
 ```
+
+#### More about Dictionnaries : https://www.datacamp.com/fr/tutorial/python-dictionary-comprehension
