@@ -11,10 +11,8 @@ df = pd.read_csv(r"C:\Users\chris\Documents\Travaux_2025\Python Data Science\Pan
 df = df.set_index("Date")
 df
 ```
-
-```
 ![image](https://github.com/user-attachments/assets/bb3c2047-3f7c-4afc-b023-5b7bcafeeac7)
-```
+
 
 ## Line
 
