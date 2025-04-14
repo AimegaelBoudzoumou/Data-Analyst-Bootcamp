@@ -20,7 +20,5 @@ df
 ```
 
 ```python
-# Remove Column
-df = df.drop(columns = "Not_Useful_Column")
-df
+# 
 ```
