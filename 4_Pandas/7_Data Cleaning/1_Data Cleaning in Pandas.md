@@ -20,5 +20,17 @@ df
 ```
 
 ```python
-# 
+# Manage of Last_Name column
+
+#df["Last_Name"] = df["Last_Name"].str.lstrip("...")
+#df["Last_Name"] = df["Last_Name"].str.lstrip("/")
+#df["Last_Name"] = df["Last_Name"].str.rstrip("_")
+
+df["Last_Name"] = df["Last_Name"].str.strip("123._/")
+df
+```
+
+```python
+# manage of Phone_Number column -- 13:25
+
 ```
