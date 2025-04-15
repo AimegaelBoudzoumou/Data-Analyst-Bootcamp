@@ -31,6 +31,6 @@ df
 ```
 
 ```python
-# manage of Phone_Number column -- 13:25
+# Manage of Phone_Number column -- 13:25
 
 ```
