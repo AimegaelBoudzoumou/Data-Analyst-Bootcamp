@@ -93,7 +93,7 @@ Variables in Python
 
 Data Types in Python
 
-Comparison_Logical_and_Membership_Operators_in_Python
+Comparison Logical and Membership Operators in Python
 
 If Elif Else Statements in Python
 
