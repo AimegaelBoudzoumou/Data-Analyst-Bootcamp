@@ -16,9 +16,11 @@ Python
 
 Pandas
 
+<!-- 
 Azur
 
 AWS
+-->
 
 ## Detailled Content
 
