@@ -66,7 +66,7 @@ df["Phone_Number"] = df["Phone_Number"].str.replace('Na--','')
 df
 ```
 
-## Manage of Address column
+## Manage of "Address" column
 
 ```python
 df[["Street_Address", "Street", "Zip_Code"]] = df["Address"].str.split(',', expand=True)
