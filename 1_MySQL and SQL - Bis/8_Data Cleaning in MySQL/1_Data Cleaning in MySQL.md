@@ -49,7 +49,7 @@ FROM layoffs_staging
 )
 SELECT *
 FROM duplicate_cte
-WHERE row_nulm > 1;
+WHERE row_num > 1;
 ```
 
 ```sql
