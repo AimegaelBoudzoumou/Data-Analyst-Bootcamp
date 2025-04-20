@@ -1,5 +1,7 @@
 # Data Cleaning
 
+## Steps of Data Cleaning
+
 ### 1. Remove Duplicates
 
 ### 2. Standardizing Data
