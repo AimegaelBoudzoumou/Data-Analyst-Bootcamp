@@ -127,6 +127,7 @@ Data Cleaning
 
 Exploratory Data Analysis
 
+<!--
 Amazon Web Scraping Using Python
 
 Automating Crypto Website API
@@ -134,3 +135,4 @@ Automating Crypto Website API
 ### Azur
 
 ### AWS
+-->
